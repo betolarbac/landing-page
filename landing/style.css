@@ -1,0 +1,88 @@
+*{ 
+    margin: 0; 
+    
+    padding: 0; 
+    
+    box-sizing: border-box; 
+    } 
+
+    html {
+        font-size: 93.75%;
+    }
+
+    body {
+        background-color: #212121;
+    }
+
+   .container {
+       
+       color: #ffff;
+       text-align: center;
+      
+   }
+   
+   .texto-menor {
+       font-size: 15px;
+       margin-bottom: 2rem;
+   }
+
+.texto-maior {
+    padding: 0 8rem 0 8rem;
+   font-size: 29px;
+   margin-top: 1rem;
+   margin-bottom: 0.8rem;
+   text-align: center;
+}
+
+
+/* decoração de botão  */
+.button {
+
+    height: 90px;
+    width: 594px;
+    left: 25px;
+    top: 0px;
+    border-radius: 50px;
+
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 24px;
+    color:#ffff;
+
+
+    background: #31C451;
+    border-style: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* animação de pulsação no botão */
+.pulse {
+  animation: pulse 0.5s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); 
+  }
+  100% {
+    transform: scale(1.1); 
+  }
+}
