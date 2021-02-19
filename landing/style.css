@@ -14,7 +14,7 @@
         background-color: #212121;
     }
 
-   .container {
+   .container2 {
        
        color: #ffff;
        text-align: center;
@@ -27,8 +27,7 @@
    }
 
 .texto-maior {
-    padding: 0 8rem 0 8rem;
-   font-size: 29px;
+   font-size: clamp(1.2em, 1em + 2vw, 2em); /* tres paramentros aceitados o primeiro o minimo, o segundo o aceitavel, o terceiro o maximo*/
    margin-top: 1rem;
    margin-bottom: 0.8rem;
    text-align: center;
@@ -38,20 +37,21 @@
 /* decoração de botão  */
 .button {
 
-    height: 90px;
-    width: 594px;
+    height: 7vw;
+    width: 37vw;
     left: 25px;
     top: 0px;
     border-radius: 50px;
+    padding: 10px;
 
-    margin-top: 2rem;
+    margin: 0.5rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 22px;
     color:#ffff;
 
 
     background: #31C451;
-    border-style: hidden;
+    border: none;
 }
 
 a {
@@ -61,9 +61,6 @@ a {
 /* animação de pulsação no botão */
 .pulse {
   animation: pulse 0.5s infinite;
-  margin: 0 auto;
-  display: table;
-  margin-top: 50px;
   animation-direction: alternate;
   -webkit-animation-name: pulse;
   animation-name: pulse;
@@ -86,3 +83,16 @@ a {
     transform: scale(1.1); 
   }
 }
+
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  width: 62vw;
+  height: 35vw;
+}
+
+ 
