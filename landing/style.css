@@ -27,10 +27,11 @@
    }
 
 .texto-maior {
-   font-size: clamp(1.2em, 1em + 2vw, 2em); /* tres paramentros aceitados o primeiro o minimo, o segundo o aceitavel, o terceiro o maximo*/
+   font-size: clamp(1.2rem, 1rem + 2vw, 2rem); /* tres paramentros aceitados o primeiro o minimo, o segundo o aceitavel, o terceiro o maximo*/
    margin-top: 1rem;
    margin-bottom: 0.8rem;
    text-align: center;
+   margin: 15px;
 }
 
 
@@ -42,11 +43,11 @@
     left: 25px;
     top: 0px;
     border-radius: 50px;
-    padding: 10px;
+    
 
-    margin: 0.5rem;
+    margin: 0.3rem;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 1.5vw;
     color:#ffff;
 
 
@@ -94,5 +95,23 @@ a {
   width: 62vw;
   height: 35vw;
 }
+
+.sobre {
+    color: #ffff;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.sobre h2 {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.sobre2 {
+  display: grid;
+}
+
+
 
  
