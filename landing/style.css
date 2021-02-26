@@ -96,7 +96,44 @@ a {
   height: 35vw;
 }
 
+.titulo1 {
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
+  background-color: black;
+  color: #ffff;
 
+  text-align: center;
+}
+
+
+.card {
+  background-color: black;
+  color: #ffff;
+  float: left;
+  
+  
+}
+
+
+.imagem img {
+    width: 20rem;
+    margin: 1rem;
+    float: left;
+   
+    
+}
+
+.titulo {
+  text-align: center;
+  margin: 2rem;
+  font-size: clamp( 2rem, 0.7rem + 1vw, 1rem);
+}
+
+
+.texto {
+  font-size: 20px;
+  margin: 3rem;
+
+}
 
 
 
