@@ -12,6 +12,7 @@
 
     body {
         background-color: #212121;
+        font-family: 'Poppins', sans-serif;
     }
 
    .container2 {
@@ -100,6 +101,7 @@ a {
   font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
   background-color: black;
   color: #ffff;
+  padding: 15px;
 
   text-align: center;
 }
@@ -115,8 +117,10 @@ a {
 
 
 .imagem img {
-    width: 20rem;
-    margin: 1rem;
+    width: 18rem;
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     float: left;
    
     
@@ -130,13 +134,19 @@ a {
 
 
 .texto {
-  font-size: 20px;
-  margin: 3rem;
+  font-size: clamp(1rem, 1rem + 2vw, 1.5rem);
+  margin: 25px;
+  text-align: justify;
 
 }
 
 
-
+.aulas {
+  text-align: center;
+  color: #ffff;
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
+  padding: 20px;
+}
 
 
 
