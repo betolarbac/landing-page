@@ -16,7 +16,7 @@
     }
 
    .container2 {
-       
+       margin: 2rem;
        color: #ffff;
        text-align: center;
       
@@ -25,6 +25,7 @@
    .texto-menor {
        font-size: 15px;
        margin-bottom: 2rem;
+       margin: 2rem;
    }
 
 .texto-maior {
@@ -32,7 +33,8 @@
    margin-top: 1rem;
    margin-bottom: 0.8rem;
    text-align: center;
-   margin: 15px;
+   margin: 2rem;
+   
 }
 
 
@@ -139,15 +141,6 @@ a {
   text-align: justify;
 
 }
-
-
-.aulas {
-  text-align: center;
-  color: #ffff;
-  font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
-  padding: 20px;
-}
-
 
 
 
