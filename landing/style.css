@@ -143,5 +143,22 @@ a {
 }
 
 
+.titulo-conteudo {
+  text-align: center;
+  color: #ffff;
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
+  margin: 25px;
+}
+
+.lista-1 {
+  color: #ffff;
+  margin: 2rem;
+  
+}
+
+.lista-1 ul {
+  list-style-type: none;
+}
+
 
  
