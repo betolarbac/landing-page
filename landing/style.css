@@ -102,7 +102,7 @@ a {
 
 .titulo1 {
   font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
-  background-color: black;
+ /* background-color: ;*/
   color: #ffff;
   padding: 15px;
 
@@ -125,7 +125,6 @@ a {
     margin-left: 5rem;
     margin-right: 5rem;
     float: left;
-   
     
 }
 
@@ -178,10 +177,116 @@ a {
   margin-right: 1rem;
 }
 
+.butão-conteudo {
+  
+  height: 7vw;
+  width: 37vw;
+  left: 25px;
+  top: 0px;
+  border-radius: 50px;
+  
 
- .depoimento {
-   background-color: black;
+  
+  cursor: pointer;
+  font-size: 1.5vw;
+  color:#ffff;
+
+
+  background: #31C451;
+  border: none;
+  margin-left: 30vw;
+  
+}
+/*
+ .depoimentos {
+   background-color: black;  
    
  }
+*/
 
- 
+.video-depoimento {
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  width: 29vw;
+  height: 16vw;
+  margin: 1px;
+  margin-left: 2.5vw;
+  border-radius: 2%;
+  
+}
+
+.beneficios {
+  color: #ffff;
+  float: left;
+}
+
+.titulo-ben {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.imagem1 img {
+  width: 18rem;
+  margin: 2rem;
+  margin-left: 16vw;
+  margin-right: 5rem;
+  float: left;
+  
+}
+
+.texto-ben {
+  margin-left: 2rem;
+  font-size: 1rem;
+  
+  list-style-type: none;
+}
+
+ /*responsividade abaixo de 600px */
+ @media screen and (max-width: 600px) {
+
+  .responsive-iframe {
+    width: 70vw;
+    height: 40vw;
+  }
+
+  .button {
+    height: 10vw;
+    width: 50vw;
+    font-size: 2vw;
+  }
+
+  .lista-1 img {
+    width: 1rem;
+    margin-right: 0.6rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .video-depoimento {
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    width: 62vw;
+    height: 35vw;
+    margin: 1vw;
+    margin-left: 20vw;
+    border-radius: 2%;
+    
+  }
+
+
+  .titulo-ben {
+    font-size: 1rem;
+    margin: 10vw;
+      
+
+}
+
+}
