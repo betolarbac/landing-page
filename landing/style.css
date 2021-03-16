@@ -89,6 +89,7 @@ a {
 }
 
 
+
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   top: 0px;
@@ -198,11 +199,6 @@ a {
   
 }
 
- .tudo {
-   background-color: black;
-   padding: 20px;
-   
- }
 
 
 .video-depoimento {
@@ -219,8 +215,11 @@ a {
 }
 
 .beneficios {
+  margin-top: 2rem;
+  background-color:black;
   color: #ffff;
   float: left;
+  margin-bottom: 3rem;
 }
 
 .titulo-ben {
@@ -228,8 +227,8 @@ a {
   margin: 2rem;
 }
 
-.imagem1 img {
-  width: 18rem;
+.imagem img {
+  width: 23rem;
   margin: 2rem;
   margin-left: 16vw;
   margin-right: 5rem;
@@ -237,19 +236,51 @@ a {
   
 }
 
-.texto-ben {
+.texto-ben ul{
   margin-left: 2rem;
-  font-size: 1rem;
+  font-size: 14px;
+  margin-bottom: 3rem;
   
   list-style-type: none;
 }
 
+.garantia {
+  text-align: center;
+  margin: 2rem;
+}
+
+
+
+.botao2 {
+  text-align: center;
+}
+
+.botao2 button {
+    margin: 1rem;
+
+    padding: 1.5rem;
+    background: #31C451;
+    border: none; 
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: 1rem;
+    color:#ffff;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+
+  
+}
  /*responsividade abaixo de 600px */
  @media screen and (max-width: 600px) {
 
   .responsive-iframe {
-    width: 70vw;
-    height: 40vw;
+    width: 85vw;
+    height: 50vw;
   }
 
   .button {
@@ -289,5 +320,7 @@ a {
       
 
 }
+
+
 
 }
