@@ -246,7 +246,7 @@ a {
 
 .garantia {
   text-align: center;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 
@@ -269,12 +269,7 @@ a {
     color:#ffff;
 }
 
-.footer {
-  background-color: black;
-  width: 100%;
 
-  
-}
  /*responsividade abaixo de 600px */
  @media screen and (max-width: 600px) {
 
