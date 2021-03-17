@@ -32,7 +32,7 @@
    font-size: clamp(1.2rem, 1rem + 2vw, 2rem); /* tres paramentros aceitados o primeiro o minimo, o segundo o aceitavel, o terceiro o maximo*/
    margin-top: 1rem;
    margin-bottom: 0.8rem;
-   text-align: center;
+   
    
    
 }
@@ -115,6 +115,7 @@ a {
   background-color: black;
   color: #ffff;
   float: left;
+  
   
   
 }
@@ -215,6 +216,7 @@ a {
 }
 
 .beneficios {
+  
   margin-top: 2rem;
   background-color:black;
   color: #ffff;
@@ -227,8 +229,9 @@ a {
   margin: 2rem;
 }
 
-.imagem img {
-  width: 23rem;
+.imagem1 img {
+  
+  width: 25rem;
   margin: 2rem;
   margin-left: 16vw;
   margin-right: 5rem;
@@ -237,7 +240,7 @@ a {
 }
 
 .texto-ben ul{
-  margin-left: 2rem;
+  margin-left: 3rem;
   font-size: 14px;
   margin-bottom: 3rem;
   
@@ -305,6 +308,14 @@ a {
     margin: 1vw;
     margin-left: 20vw;
     border-radius: 2%;
+    
+  }
+
+  .imagem1 img {
+  
+    width: 70vw;
+    margin-left: 19vw;
+    margin-right: 10vw;
     
   }
 
