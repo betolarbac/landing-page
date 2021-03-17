@@ -200,8 +200,12 @@ a {
   
 }
 
-
-
+.titulo1 {
+  background-color: black;
+}
+.depoimentos {
+  background-color: black;
+}
 .video-depoimento {
   top: 0px;
   left: 0px;
@@ -218,7 +222,7 @@ a {
 .beneficios {
   
   margin-top: 2rem;
-  background-color:black;
+  
   color: #ffff;
   float: left;
   margin-bottom: 3rem;
@@ -250,6 +254,7 @@ a {
 .garantia {
   text-align: center;
   margin: 1rem;
+  
 }
 
 
@@ -271,6 +276,7 @@ a {
     font-size: 1rem;
     color:#ffff;
 }
+
 
 
  /*responsividade abaixo de 600px */
@@ -318,6 +324,16 @@ a {
     margin-right: 10vw;
     
   }
+
+
+  .imagem img {
+    width: 50vw;
+    margin: 3rem;
+    margin-left: 25vw;
+    margin-right: 10vw;
+
+    
+}
 
 
   .titulo-ben {
